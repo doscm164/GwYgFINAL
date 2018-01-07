@@ -1,0 +1,103 @@
+
+h1 a {
+  color:cornsilk;
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: cornsilks;
+}
+
+body {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1473113092853-545c00642b82?auto=format&fit=crop&w=1868&q=80);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+
+  font-size: 45px;
+  border-bottom: 2px solid black;
+  margin: 0;
+  padding: 20px;
+}
+
+h3 {
+  color:cornsilk;
+  font-size: 25px;
+}
+.lastLink {
+  font-family: 굴림;
+  font-weight: 1000;
+  font-weight: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  color: cornsilk;
+  text-decoration: none;
+}
+.letter {
+  color: cornsilk;
+  font-family: 굴림;
+  font-weight: 1000;
+  font-weight: 50px;
+  line-height: 50px;
+  font-size: 20px;
+}
+#media {
+  border-right: 2px solid;
+  border-left: 2px solid;
+}
+
+#parent {
+  display: grid;
+  grid-template-columns: 180px 1fr
+}
+
+#parent ul {
+  color: white;
+  font-size: 20px;
+  width: 50px;
+  margin: 0;
+  padding: 70px;
+}
+
+#parent li {
+  color: cornsilk;
+  height: 40px;
+}
+
+#parent a {
+  color: cornsilk;
+  text-decoration: none;
+}
+
+#parent a:visited {
+  color: cornsilk;
+}
+
+@media(max-width:297px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:500px) {
+  #parent {
+    display: block;
+  }
+  #parent ul {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    font-size: 20px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+  }
+  #parent li {
+    display: inline;
+    padding: 10px;
+  }
+}
